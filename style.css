@@ -1,0 +1,74 @@
+:root{
+	--black: rgb(22, 22, 22);
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	background-color: var(--black);
+	color: white;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#iniciar-sesion, #registrar-usuario{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.hide{
+	display: none;
+}
+
+.show{
+	display: block;
+}
+
+.small-text{
+	font-size: 15px;
+}
+
+input[type="submit"]{
+	border: 1px solid white;
+	background-color: black;
+	color: white;
+	width: 200px;
+	height: 30px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+input[type="submit"]:hover{
+	background-color: aliceblue;
+	color: var(--black);
+	transition-duration: 500ms;
+}
+
+input[type="text"], input[type="password"]{
+	width: 200px;
+}
+
+input[type="checkbox"]{
+	width: 20px;
+	height: 20px;
+}
+
+.btn{
+	text-decoration: none;
+	color: white;
+	margin-bottom: -10px;
+	margin-left: 25px;
+}
+
+.btn:hover{
+	text-decoration: underline;
+	color: blue;
+	transition-duration: 500ms;
+}
